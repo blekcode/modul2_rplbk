@@ -15,6 +15,7 @@ function App() {
     setQuery(input);
   };
 
+  // menyortir data berdasarkan input
   const filteredData = data.filter((item) => {
     return item.nama_lengkap.toLowerCase().includes(query.toLowerCase());
   });
