@@ -4,7 +4,6 @@ import { data } from "./data.js";
 function App() {
   const [input, setInput] = React.useState("");
   const [query, setQuery] = React.useState("");
-
   const handleChange = (event) => {
     setInput(event.target.value);
   };
@@ -53,7 +52,6 @@ function App() {
         ))}
       </ul>
     </div>
-  );
-}
+  );}
 
 export default App;
