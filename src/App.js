@@ -19,7 +19,9 @@ function App() {
   const filteredData = data.filter((item) => {
     return item.nama_lengkap.toLowerCase().includes(query.toLowerCase());
   });
-
+  
+  
+  //menambahkan styling 
   return (
     <div
       style={{
