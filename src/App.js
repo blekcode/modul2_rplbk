@@ -8,6 +8,8 @@ function App() {
     setInput(event.target.value);
   };
 
+  
+  // membuat fungsi untuk tombol search
   const handleSubmit = (event) => {
     event.preventDefault();
     setQuery(input);
